@@ -1,0 +1,28 @@
+body {
+  background-color: #333333;
+}
+
+@media (min-width: 300px) {
+  img {
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+    width: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  div {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 300px) {
+  p {
+  }
+}
+
