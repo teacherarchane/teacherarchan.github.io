@@ -1,0 +1,42 @@
+.border-pretty {
+  border: 1px solid #f8f8f8;
+}
+
+@media (min-width: 768px) {
+  header {
+  }
+}
+
+#logo {
+}
+
+@media (min-width: 300px) {
+  #logo {
+    width: 200px;
+  }
+}
+
+@media (min-width: 576px) {
+  #logo {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo {
+    width: 600px;
+  }
+}
+
+@media (min-width: 300px) {
+  img {
+    width: 350px;
+  }
+}
+
+@media (min-width: 576px) {
+  img {
+    width: 800px;
+  }
+}
+
