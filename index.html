@@ -26,41 +26,51 @@
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
+
+    <style>
+        /* Prevent horizontal scroll */
+        body {
+            overflow-x: hidden;
+        }
+        /* Reduce nav-link padding on mobile */
+        @media (max-width: 991px) {
+            .navbar-nav .nav-link {
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
 
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase navbar-light" id="mainNav">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#page-top">Ayoub Archan</a>
-            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded">
+            <button class="navbar-toggler text-white bg-primary rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="/index.html">Home</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="/testenglish.html">Test Your English</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index.html">Home</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/testenglish.html">Test Your English</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- HEADER -->
     <header class="text-center text-white bg-primary masthead">
         <div class="container">
-            <img class="img-fluid d-block mx-auto mb-5"
-                src="assets/img/White%20Black%20M%20Letter%20Logo%20Design%20Business%20Identity%20for%20Digital%20Design%20Company.png"
-                width="400" height="400">
+            <img class="img-fluid d-block mx-auto mb-5" src="assets/img/White%20Black%20M%20Letter%20Logo%20Design%20Business%20Identity%20for%20Digital%20Design%20Company.png" width="400" height="400">
             <h1>Ayoub Archan</h1>
             <hr class="star-light">
             <h2 class="font-weight-light mb-0">Tutor | EFL Teacher | Writing for pleasure...</h2>
         </div>
     </header>
 
-    <!-- ABOUT + INTRO OMITTED (UNCHANGED FROM YOUR ORIGINAL) -->
-
+    <!-- MAIN CONTENT -->
     <div class="container" style="padding-top: 100px;">
         <div class="row" style="padding-bottom: 150px;">
 
@@ -70,37 +80,25 @@
                 <p class="text-start">Research Paper :</p>
 
                 <p class="text-center">
-                    <strong>
-                        <span style="text-decoration: underline;">
-                            The Modern Women in the Play All My sons by Arthur Miller
-                        </span>
-                    </strong>
+                    <strong><span style="text-decoration: underline;">The Modern Women in the Play All My sons by Arthur Miller</span></strong>
                 </p>
 
-                <a class="btn btn-link link-dark border-pretty" role="button"
-                    href="https://www.academia.edu/71012687/The_Modern_Women_in_the_Play_All_My_sons_by_Arthur_Miller"
-                    target="_blank">
+                <a class="btn btn-link link-dark border-pretty" role="button" href="https://www.academia.edu/71012687/The_Modern_Women_in_the_Play_All_My_sons_by_Arthur_Miller" target="_blank">
                     <strong>Continue Reading</strong>&nbsp;&nbsp;
                     <i class="icon ion-android-arrow-forward text-dark"></i>
                 </a>
             </div>
 
-            <!-- Current Work (UPDATED CONTENT ONLY) -->
+            <!-- Current Work -->
             <div class="col-md-6 col-lg-5" data-aos="fade-left">
                 <p class="fs-4 text-start"><strong>Current Work</strong></p>
                 <p class="text-start">Short Story :</p>
 
                 <p class="text-center">
-                    <strong>
-                        <span style="text-decoration: underline;">
-                            Vita Post Mortem
-                        </span>
-                    </strong>
+                    <strong><span style="text-decoration: underline;">Vita Post Mortem</span></strong>
                 </p>
 
-                <a class="btn btn-link link-dark border-pretty" role="button"
-                    href="https://drive.google.com/file/d/1vnLUkMebB12zMDqkdyD-9yqp_csaVjJd/view?usp=sharing"
-                    target="_blank">
+                <a class="btn btn-link link-dark border-pretty" role="button" href="https://drive.google.com/file/d/1vnLUkMebB12zMDqkdyD-9yqp_csaVjJd/view?usp=sharing" target="_blank">
                     <strong>Continue Reading</strong>&nbsp;&nbsp;
                     <i class="icon ion-android-arrow-forward text-dark"></i>
                 </a>
@@ -109,13 +107,15 @@
         </div>
     </div>
 
+    <!-- FOOTER -->
     <footer class="text-center footer">
         <div class="container">
             <p>© 2023–<script>document.write(new Date().getFullYear())</script> Ayoub Archan</p>
         </div>
     </footer>
 
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/freelancer.js"></script>
